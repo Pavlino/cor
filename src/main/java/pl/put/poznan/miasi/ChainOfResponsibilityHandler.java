@@ -14,6 +14,8 @@ public class ChainOfResponsibilityHandler {
         chains.add(new SubtractionChain());
         chains.add(new MultiplicationChain());
         chains.add(new DivisionChain());
+        chains.add(new PowerChain());
+        chains.add(new FunnyChain());
     }
 
     private void addChain(IChain chain) {
